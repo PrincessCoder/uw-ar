@@ -111,10 +111,10 @@ nav {
     margin-right: 1rem;
     } */
     /* Reset CSS */
-* {
+* .body {
     box-sizing: border-box;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
   }
   
   /* Base Styles */
@@ -169,7 +169,9 @@ nav {
 /* Footer Responsive */
       footer {
         text-align: center;
-        padding: 20px;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
         background-color: #f2f2f2;
       }
       
