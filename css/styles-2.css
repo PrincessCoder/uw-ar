@@ -127,6 +127,11 @@ nav {
     font-family: Arial, sans-serif;
     font-size: 10px;
     line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
   }
       /* Make iphone mock-ups responsive */
       .w3-container {
@@ -166,6 +171,18 @@ nav {
           width: 100%;
         }
       }
+      .qr-code {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .qr-code img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin: 10px;
+      }
 /* Footer Responsive */
       footer {
         text-align: center;
@@ -188,6 +205,7 @@ nav {
         height: auto;
         margin: 10px;
       }
+
   
     
     
